@@ -1,0 +1,31 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.main_component {
+    height: 100vh;
+}
+
+p.footer {
+    padding: 0px;
+    font-size: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }

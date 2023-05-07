@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webfejl-2023-shop": {
+      "hosting": {
+        "Webshop": [
+          "webfejl-2023-shop"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webfejl-2023-shop"
+  }
+}

@@ -1,0 +1,7 @@
+<div class="imageList">
+    <mat-form-field>
+        <mat-select (selectionChange)="reload()" [(ngModel)]="chosenImage">
+            <mat-option *ngFor="let obj of shopObjectInput" [value]="obj">{{obj.id}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>

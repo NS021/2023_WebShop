@@ -1,0 +1,39 @@
+mat-card{
+    width: 60%;
+    height: 60%;
+    align-self: center;
+}
+
+mat-card-header{
+    display: initial;
+}
+mat-card-title{
+    padding-bottom: 20px;
+}
+
+.div-flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+}
+
+.main_component{
+    height: 100vh;
+}
+
+p{
+    font-size: 20px;
+}
+
+p.footer {
+    padding: 0px;
+    font-size: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
